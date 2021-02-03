@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.0">
+  <object class="ttk.Frame" id="frame_1">
+    <property name="height">540</property>
+    <property name="width">960</property>
+    <layout manager="pack">
+      <property name="propagate">False</property>
+      <property name="side">top</property>
+    </layout>
+    <child>
+      <object class="tk.Button" id="button_1">
+        <property name="background">#f4f4f4</property>
+        <property name="text" translatable="yes">Accept</property>
+        <layout manager="place">
+          <property name="anchor">n</property>
+          <property name="relwidth">0.08</property>
+          <property name="relx">0.86</property>
+          <property name="rely">0.95</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button_2">
+        <property name="background">#f4f4f4</property>
+        <property name="text" translatable="yes">Cancel</property>
+        <layout manager="place">
+          <property name="anchor">n</property>
+          <property name="relwidth">0.08</property>
+          <property name="relx">0.95</property>
+          <property name="rely">0.95</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Combobox" id="combobox_1">
+        <layout manager="place">
+          <property name="anchor">n</property>
+          <property name="relwidth">0.2</property>
+          <property name="relx">0.5</property>
+          <property name="rely">0.22</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Label" id="label_1">
+        <property name="anchor">w</property>
+        <property name="background">#243447</property>
+        <property name="font">{Arial} 14 {}</property>
+        <property name="foreground">#ffffff</property>
+        <property name="text" translatable="yes">Rent a bike</property>
+        <layout manager="place">
+          <property name="anchor">n</property>
+          <property name="relx">0.5</property>
+          <property name="rely">0.03</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Label" id="label_2">
+        <property name="background">#243447</property>
+        <property name="font">{Arial} 10 {}</property>
+        <property name="foreground">#ffffff</property>
+        <property name="text" translatable="yes">Choose your bike:</property>
+        <layout manager="place">
+          <property name="anchor">n</property>
+          <property name="relx">0.5</property>
+          <property name="rely">0.16</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>
